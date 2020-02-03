@@ -33,7 +33,7 @@ header h1 {
 
 .posicao-centro{
     margin-top: 20px; 
-    margin-left: 350px;
+    margin-left: 370px;
 }
 .logo{
     float: left;
@@ -97,4 +97,21 @@ header h1 {
 #lista li {
     text-decoration: underline;
     padding-bottom: 10px;
+}
+
+#links-footer a:hover{
+    background-color: var(--color-rock);
+    transition: 450ms;
+}
+
+#links-footer a{
+    font-size: 18px;
+    margin-top: 9px;;
+    text-decoration: none;
+    color: white;
+    padding:2px;
+}
+#links-footer{
+    text-align: center;
+    margin-top: 50px;
 }

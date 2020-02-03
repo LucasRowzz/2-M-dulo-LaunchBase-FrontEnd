@@ -1,6 +1,7 @@
 /* Colocar variáveis no CSS */
 :root{
     --color-green: #50fa7b;
+    --color-rocket: #7159c1;
 }
 
  /* importando fontes */
@@ -81,7 +82,6 @@ header div{
     /* É a largura máxima que o texto atinge
        antes de quebrar a linha */
      max-width: 500px;
-
     /* Para alinha-lo novamente ao meio */
     margin:32px auto;
     font-size: 18px;
@@ -95,4 +95,48 @@ header div{
 #links-footer a{
     text-decoration: underline;
     border-bottom: 1px solid var(--color-green);   
+}
+
+/* ======== CARDS ========== */
+.cards {
+
+    max-width: 800px;
+    /* Alinha ao centro */
+    margin: 0 auto;
+    /* Começamos a usar grid e colunas */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: var(--color-rocket);
+    
+}
+.card__image-container img {
+    width: 100%;
+    
+}
+
+.card__content,
+.card__info {
+    padding:24px;
+}
+/* Aprendendo usar as Grids */
+.card__info {
+    display: grid;
+    /* Aki duas columas 1fr 1fr */
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.card__price {
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding:5px 20px;
+    border-radius: 20px;
+    text-align: center;
+    
 }
