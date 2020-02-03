@@ -1,0 +1,100 @@
+
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+:root{
+    --color-rock:  rgb(206, 194, 194);
+}
+
+*{
+    padding:0;
+    margin:0;
+    border:0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(43, 31, 83);
+    color:white;
+}
+header{
+    padding-top: 20px;
+    border-bottom: solid 1.5px var(--color-rock);
+}
+header h1 {
+    padding-bottom: 20px;
+    color: rgb(57, 241, 112)
+}
+
+
+
+/* Classes */
+
+
+
+.posicao-centro{
+    margin-top: 20px; 
+    margin-left: 350px;
+}
+.logo{
+    float: left;
+    margin-left: 350px;
+    margin-right: 13px;    
+    border-radius: 50%;
+    border: var(--color-rock) solid 2px;
+    text-align: center;
+    width: 70px;
+}
+
+.links a {
+    font-size: 18px;
+    margin-top: 9px;;
+    margin-right: 10px;;;
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding:2px;
+}
+
+.links a:hover{
+    background-color: var(--color-rock);
+    transition: 450ms;
+    
+}
+
+.links {
+    width: 1100px;
+}
+
+.description h1{
+    font-size: 25px;
+    margin-top: 20px; 
+    margin-left: 350px;
+    width: 120px;
+    padding-bottom: 5px;
+    border-bottom: var(--color-rock) solid 1px;
+}
+.description p {
+    max-width: 700px;
+    padding-top: 20px;
+    margin-left: 350px;
+}
+
+.techs h1{
+    font-size: 25px;
+    margin-top: 20px; 
+    margin-left: 350px;
+    width: 360px;
+    padding-bottom: 5px;
+    border-bottom: var(--color-rock) solid 1px;
+}
+
+/* Ids */
+#lista{
+    
+    width: 78px;
+}
+
+#lista li {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
